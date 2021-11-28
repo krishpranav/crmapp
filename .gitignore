@@ -1,0 +1,12 @@
+.DS_Store
+
+
+# builded version
+~.exe
+crmapp
+
+
+
+# ide cache 
+.idea/
+.vscode/
