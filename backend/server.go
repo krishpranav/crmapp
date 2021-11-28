@@ -73,7 +73,7 @@ func postData(w http.ResponseWriter, r *http.Request) {
 
 /* handle the homepage */
 func homePage(w http.ResponseWriter, r *http.Request) {
-	indexFile, err := os.Open("../static/index.html")
+	indexFile, err := os.Open("./static/index.html")
 	if err != nil {
 		io.WriteString(w, "error reading html file. make sure you have it!!")
 		return
